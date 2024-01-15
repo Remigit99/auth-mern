@@ -8,7 +8,6 @@ import SignUp from "./Pages/SignUp"
 
 import Navbar from "./component/Navbar"
 
-import './App.css'
 
 function App() {
 
