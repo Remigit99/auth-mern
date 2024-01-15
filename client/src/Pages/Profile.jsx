@@ -15,9 +15,10 @@ const Profile = () => {
                         <img src={PROIMG} alt="profile Picture" />
                     </div>
 
-                    <input type="text" name="username" id="usernmae" placeholder="Username" autoComplete="off" className="bg-slate-100 w-full p-2 outline-none rounded-[0.5rem]" />
+                    <input type="text" name="username" id="usernmae" placeholder="Username" autoComplete="off" className="bg-slate-100 w-full p-2 outline-none rounded-[0.5rem] mb-8" />
 
                     <input type="email" name="email" id="email" placeholder="Email" autoComplete="off" className="bg-slate-100 w-full p-2 outline-none rounded-[0.5rem]" />
+
                     <input type="password" name="password" id="password" placeholder="Password" autoComplete="off" className="bg-slate-100 w-full p-2 outline-none my-8 rounded-[0.5rem]" />
 
                     <button className="flex justify-center align-center text-white bg-purple-800 w-full py-2 rounded-[0.5rem]">UPDATE</button>
