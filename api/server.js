@@ -19,7 +19,9 @@ app.use("/api/auth/sign-up", authRouter)
 
 const PORT = process.env.PORT || 9090
 
+// app.use((error, req, res, next) => {
 
+// })
 
 
 mongoose.connect(process.env.MONGODB_URI).then(
