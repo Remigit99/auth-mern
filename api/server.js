@@ -7,6 +7,7 @@ dotenv.config()
 
 import userRouter from "./Routes/UserRoutes.js"
 import authRouter from "./Routes/AuthRoute.js"
+import { signInRoute } from "./Controller/AuthController.js"
 
 
 
@@ -16,6 +17,7 @@ app.use(express.json())
 
 app.use("/api/user", userRouter)
 app.use("/api/auth/sign-up", authRouter)
+app.use("/api/auth/sign-in", signInRoute)
 
 const PORT = process.env.PORT || 9090
 

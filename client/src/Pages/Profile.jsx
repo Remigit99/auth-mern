@@ -1,6 +1,6 @@
 
 // import { Link } from "react-router-dom"
-import PROIMG from "../../public/vite.svg"
+import PROIMG from "../assets/react.svg"
 
 
 const Profile = () => {
@@ -9,7 +9,7 @@ const Profile = () => {
             <h1 className="text-3xl mt-6">Profile</h1>
 
             <div className="sign__in my-12">
-                <form>
+                <form >
 
                     <div className="flex justify-center align-center my-8">
                         <img src={PROIMG} alt="profile Picture" />

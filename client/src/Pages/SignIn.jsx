@@ -9,9 +9,11 @@ const SignIn = () => {
             <div className="sign__in my-12">
                 <form>
                     <input type="email" name="email" id="email" placeholder="Email" autoComplete="off" className="bg-slate-100 w-full p-2 outline-none rounded-[0.5rem]" />
+
                     <input type="password" name="password" id="password" placeholder="Password" autoComplete="off" className="bg-slate-100 w-full p-2 outline-none my-8 rounded-[0.5rem]" />
 
                     <button className="flex justify-center align-center text-white bg-purple-800 w-full py-2 rounded-[0.5rem]">SIGN IN</button>
+
                     <button className="text-center my-4 text-white bg-red-800 w-full py-2 rounded-[0.5rem] hover:opacity-0.5">CONTINUE WITH GOOGLE</button>
 
                     <div>
