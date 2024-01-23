@@ -1,12 +1,14 @@
 
 import { useState } from "react"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 
 
 const SignUp = () => {
 
     // const [isLoading, SetIsLoading] = useState(true)
     // const [error, SetError] = useState(false)
+
+    const navigate = useNavigate()
 
     const [formData, SetFormData] = useState({})
 
@@ -29,6 +31,7 @@ const SignUp = () => {
         const data = await res.json()
         console.log(data)
         SetFormData({})
+        navigate("/")
     }
 
     return (
